@@ -1,0 +1,7 @@
+<p>menu works!</p>
+<a [routerLink]="['/menu',{outlets: {'data': ['user']}}]"> User</a> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a [routerLink]="['/menu',{outlets: {'data': ['customer']}}]"> customer</a> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<hr/>
+<router-outlet name="data"></router-outlet>
